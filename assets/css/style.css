@@ -272,9 +272,17 @@ h6 {
 
 
 /*----------- HEADER from other parts------------*/
+@media (max-width: 1050px) {
+  #home {
+    margin-left: 10px;
+  }
+}
 
-#home {
-  margin-left: 350px;
+@media (min-width: 1050px) {
+  #home {
+    margin-left: 350px;
+  }
+
 }
 
 .header {
